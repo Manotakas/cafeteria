@@ -1,0 +1,8 @@
+/*zerar as margens de todos os elementos da pagina.
+margens externas e internas.*/
+
+/*Vamos adicionar uma imagem ao fundo do header*/
+
+header{
+    background-image: url("../img/cafeteria2.jpg");
+}
