@@ -3,6 +3,67 @@ margens externas e internas.*/
 
 /*Vamos adicionar uma imagem ao fundo do header*/
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 header{
+    height: 500px;
     background-image: url("../img/cafeteria2.jpg");
+    /* Ajustar o tamanho da imagem em 100% de largura */
+    background-size: 100%;
+    /* Ajustar a posição da imagem em x e y */
+    background-position: 0px -330px;
+    padding: 10px;
+}
+
+nav{
+    /* tornando o conteudo da nav flexivel. isso permite que os elementos
+    fiquem um ao lado do outro. */
+    display: flex;
+    justify-content: space-between;
+    /* Alinhamento vertical dos elementos que estao no nav */
+    align-items: center;
+}
+
+h1{
+    /* Mudar a cor da letra */
+    color: white;
+    /* Alterar o tipo de letra */
+    font-family: fantasy;
+    font-size: 40pt;
+    /* Alterar o tamanho da caixa(alta ou baixa) */
+    text-transform: uppercase;
+    
+}
+
+ul{
+    /* Tirar o marcador da lista */
+    list-style: none;
+}
+
+header ul li{
+    /* Vamos ajustar a disposição(display) dos itens
+    da lista em formato de linha */
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header ul li:hover{
+    background-color: purple;
+    padding: 4px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: fantasy;
+    text-transform: lowercase;
+}
+
+header h2{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
 }
