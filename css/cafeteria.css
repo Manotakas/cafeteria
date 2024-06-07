@@ -1,3 +1,7 @@
+/* importando as fontes do google */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
 /*zerar as margens de todos os elementos da pagina.
 margens externas e internas.*/
 
@@ -66,4 +70,33 @@ header h2{
     color: white;
     text-align: center;
     margin-top: 100px;
+    font-family:"Dancing Script" ;
+    font-size: 45pt;
+    color: white;
+    text-shadow: 0px 0px 10px black;
 }
+
+p{
+    font-family: "Ubuntu Sans Mono";
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+footer{
+    background-color: rgb(95, 89, 75);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: 20pt;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+footer #rede li{
+    /* colocar as redes em linhas */
+    display: inline-block;
+}
+
