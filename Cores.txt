@@ -1,0 +1,37 @@
+Para aplicar cores em seus arquivos html,voce pode usar 6 opções de mistura de
+cores;
+São elas:
+    -Cores em Inglês;
+    -Cores em Hexadecimal;
+    -Cores em RGB(Red, Green, Blue);
+    -Cores em RGMB(Red, Green, Blue, Alpha);
+    -Cores em HSL(HILL, Luminosity, Saturation);
+    -Cores em HSL(HILL, Luminosity, Saturation, Alpha);
+* Cores em Inglês, você escreve o nome da cor em Inglês. O problema de utilizar
+este tipo de cor é a quantidade de cores. Que é pequena.
+
+*Cores em Hexadecimal (Hexa--> 6 | decimal --> 10). portanto, estamos falando
+cores que são composta com caracteres que variam em 0 até F, somando 16
+caracteres.
+
+0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+As cores em Hexadecimal são posicionadas em formato RGB(Red --> Varmelho |
+Green --> Verde | Blue --> Azul), semdo criada com 6 ou 3 caracteres, precedidas
+do caracter #(hashtag). Ex: Vermelho #FF000 ou #F00
+
+#FF | 00  | 00 ou #F |  0  |0
+RED |Green| Blue Red |Green|Blue
+
+#419
+#441199
+
+Cores em RGB, são aplicadas usando uma variação numérica entra 0 e 255, onde 0
+não tem luz e 255(Maximo de luz|Branco). A aplicação fica assim:
+
+RGB( _ , _ , _) --> vermelho RGB(255,0,0);
+
+* Cores em HSL, para aplicar você deve usar o termo hsl e lembrar que H --> Matriz,
+ou seja, a variação de cor, S --> Saturação, ou seja, a quantidade da cor escolhida
+pode ser muito ou pouco. E, por fim L --> luminosidade, que pode ser medido em
+percentual variado de 0 até 240.
