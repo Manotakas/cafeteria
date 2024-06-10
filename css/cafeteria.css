@@ -76,7 +76,7 @@ header h2{
     text-shadow: 0px 0px 10px black;
 }
 
-p{
+header p{
     font-family: "Ubuntu Sans Mono";
     font-size: 25px;
     text-align: center;
@@ -100,3 +100,44 @@ footer #rede li{
     display: inline-block;
 }
 
+/* Formatação da pagina index */
+main #home h2{
+    font-family: "Dancing Script";
+    margin: 35px;
+    font-size: 30pt;
+    color: rgb(0, 130, 150);
+}
+
+main p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 40px 30px 40px;
+    text-align: justify; /* Alinhar dos dois lados*/
+    font-size: 14pt;
+    /* o comando line-height define a altura da linha(espaçamento entre linhas). 
+    Estamos usando com altura de 1,5, ou seja, o tamanho da fonte mais meio
+    meio tamanho da fonte */
+    line-height: 21pt;  
+}
+main #imghome img{
+    width: 250px;
+    height: 200px;
+    /* Arredondar os cantos da imagem */
+    border-radius: 40px;
+    /* vamos aplicar um efeito de transparencia a imagem, usando
+    o comando opacity que varia entre 0 e 1, ou seja, se você
+    aplicar 0.6, significa que está usando 60% de opacidade.
+    Isto representa 60% de visibilidade */
+    opacity: 0.6;
+        /* O comando transition pode realizar uma animação de
+    transição, que você pode configurar o tipo de transição
+    e o tempo da transição */
+    transition: ease 2s;
+}
+
+main #imghome img:hover{
+    opacity: 1;
+}
+
+main #imghome{
+    text-align: center;
+}
