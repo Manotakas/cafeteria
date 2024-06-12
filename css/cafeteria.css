@@ -1,7 +1,7 @@
 /* importando as fontes do google */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /*zerar as margens de todos os elementos da pagina.
 margens externas e internas.*/
 
@@ -11,6 +11,10 @@ margens externas e internas.*/
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 header{
@@ -176,4 +180,42 @@ main #categoriacardapio{
     color: black;
     font-size: 16pt;
     font-weight: bold;
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.itens{
+    width: 30%;
+    display: flex;
+    margin: 20px;
+
+}
+.itens img{
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px black;
+}
+
+main section h2{
+    color: brown;
+    font-family:Bebas Neue ;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.itens div p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-size: 10pt;
+    line-height: 10pt;
+}
+
+.itens div h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
