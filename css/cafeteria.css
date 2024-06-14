@@ -135,7 +135,7 @@ main #imghome img{
         /* O comando transition pode realizar uma animação de
     transição, que você pode configurar o tipo de transição
     e o tempo da transição */
-    transition: ease 2s;
+    transition: ease 0.5s;
 }
 
 main #imghome img:hover{
@@ -246,5 +246,20 @@ main h2{
 #video iframe{
     width: 1000px;
     height: 600px;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+main p{
+    text-align: center;
+}
+
+#mapa{
+    text-align: center;
+}
+
+#mapa iframe{
+    width: 90%;
+    height: 900px;
     margin: 50px;
 }
