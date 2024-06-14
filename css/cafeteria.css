@@ -136,6 +136,7 @@ main #imghome img{
     transição, que você pode configurar o tipo de transição
     e o tempo da transição */
     transition: ease 0.5s;
+    margin: 20px;
 }
 
 main #imghome img:hover{
@@ -312,4 +313,18 @@ input[type=submit]{
     display: block;
     cursor: pointer;
     margin: 10px auto 20px auto;
+}
+
+/* Formataçao do whatszap */
+
+#whatsapp{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#whatsapp img{
+    width: 100%;
 }
