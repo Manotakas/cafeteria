@@ -263,3 +263,53 @@ main p{
     height: 900px;
     margin: 50px;
 }
+
+/* Contato */
+
+form{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 5px silver;
+}
+input[type=text],
+input[type=tel], 
+input[type=email],
+select{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 0px;
+    /* Retira a borda ativa do input */
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+select{
+    width: 50%;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    outline-color: lawngreen;
+/* O bloquea o redimensaionamento da textarea */
+    resize: none;
+}
+
+form span{
+    font-family:BebasNeue ;
+}
+
+input[type=submit]{
+    background-color: greenyellow;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 20px;
+    display: block;
+    cursor: pointer;
+    margin: 10px auto 20px auto;
+}
